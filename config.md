@@ -26,5 +26,7 @@ ___
 | `--unset` | Remove the line matching the key from config file. |  
 | `--unset-all` | Remove all lines matching the key from config file. | 
 | `-l or --list` | List all variables set in config file, along with their values. |
+| git config --global user.name "user" | Change user name |
+| git config --global user.email "useremail@hotmail.com" | Change user email |
 | `--fixed-value` | When used with the value-pattern argument, treat value-pattern as an exact string instead of a regular expression. This will restrict the name/value pairs that are matched to only those where the value is exactly equal to the value-pattern. |
 | `--type <type>` | git config will ensure that any input or output is valid under the given type constraint(s), and will canonicalize outgoing values in <type>'s canonical form. |
